@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+#reveal-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#reveal-button:hover {
+    background-color: #555;
+}
+
+.profile-card {
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    margin-top: 10px;
+}
+
+.username {
+    margin: 0;
+    font-size: 1.6em;
+}
+
+.status {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.social-button {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
