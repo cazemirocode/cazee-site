@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>/caze</title>
+    <title>Cartão de Perfil</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
     <audio id="background-music" loop>
-        <source src="cazemirocode/caze-site/AUD-20240712-WA0167.mp3" type="audio/mpeg">
+        <source src="audio/your-music-file.mp3" type="audio/mpeg">
         Seu navegador não suporta o elemento de áudio.
     </audio>
 
     <div class="container">
         <button id="reveal-button" onclick="revealProfile()">clique para revelar</button>
-        <div id="profile-card" class="profile-card" style="display: none;">
-            <div class="profile-header">
-                <img src="cazemirocode/caze-site/472997490_1120340839559581_3742323699541263660_n.jpg" alt="Foto de Perfil" class="profile-img">
-                <div class="profile-info">
-                    <h2 class="username">Luis Davi</h2>
-                    <p class="status">THE/PI<br>16y<br>/caze</p>
+        <div id="profile-content" class="profile-content" style="display: none;">
+            <div id="profile-card" class="profile-card">
+                <div class="profile-header">
+                    <img src="images/profile-picture.jpg" alt="Foto de Perfil" class="profile-img">
+                    <div class="profile-info">
+                        <h2 class="username">Luis Davi</h2>
+                        <p class="status">THE/PI<br>16y<br>/caze</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="social-icons" style="display: none;">
-            <a href="https://www.instagram.com/luis_mouran/" target="_blank" class="social-button">
-                <img src="cazemirocode/caze-site/logoig.avif" alt="Instagram Logo" class="social-icon">
-            </a>
-            <a href="https://www.tiktok.com/@cazeexzz?_t=ZM-8tYpfElPI6X&_r=1" target="_blank" class="social-button">
-                <img src="cazemirocode/caze-site/download.png" alt="TikTok Logo" class="social-icon">
-            </a>
-            <a href="https://www.spotify.com" target="_blank" class="social-button">
-                <img src="cazemirocode/caze-site/spotify.png" alt="Spotify Logo" class="social-icon">
-            </a>
+            <div id="social-icons" class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-button" data-name="Instagram">
+                    <img src="c:\Users\bannx\OneDrive\Área de Trabalho\logoig - Atalho.lnk" alt="Instagram Logo" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com" target="_blank" class="social-button" data-name="TikTok">
+                    <img src="images/tiktok-logo.png" alt="TikTok Logo" class="social-icon">
+                </a>
+                <a href="https://www.spotify.com" target="_blank" class="social-button" data-name="Spotify">
+                    <img src="images/spotify-logo.png" alt="Spotify Logo" class="social-icon">
+                </a>
+            </div>
         </div>
     </div>
 </body>
